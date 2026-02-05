@@ -1,0 +1,43 @@
+{
+  "url": "https://www.zillow.com/redmond-wa/",
+  "timestamp": "2026-02-02T05:42:09.378782+00:00",
+  "result": {
+    "success": true,
+    "content": "<html lang=\"en\"><head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHX+chMjDI8Mwe+fhRSYp/SAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMZnfcli/Fx+QJBMJiAgEQgDvzA34CcbL+rTHoBn0e5byCDOA6gmC73mqqiRj98ObTeMTKsSxJywINm1q62ID1eFDfk7s/s0MUIWNvgA==\",\n          \"iv\":\"CvqMWwBzlQAAFqYC\",\n          \"context\":\"rNTJ8EkakHeoOFajIOETbF6IeE/MYUt99rr+q9AsMLRGhmdntun342i4Bu3NqixMzU40WipM20o20CVcz73GbDsCJ35TBi4IFzAhQtTDY6nOowwlL0zV6Z5qBG/45xqlx+HTrp0fnGmT0PZ8opFlCuR+uiOtIZjM4w3c5FsuB1lCBwRFNzXhjzKU4gU7QmqJJrYcQZVIXgwO+4OZ7TZNuhyFVqi4FfYCCv8jIFKqKHe7batzeOtfpfMlifno7K9UZeMX/G8nmkMVxrIwa4q3Zh2pPU6/JPFCgPILD0BAZz8h8SlAzVLwpI/FORLYi68eaZWLimFF3YRltvzZQ7V8cL0cc5DJWYDYX985Kl7BZPdJfP90wln4dJ5L3JzP/v6wLj3AEisacVSiKYFD1WFmp3QaPuLgjWhNCELyDmHrFygp8Ci99g1XI4peEoRSwzD0Eg45TDRb8k3rL+MnuzO4dcuowgDpA1zzqsrdVZLcWpmhFkll02g9/D3sWZh7OFHlStN/N7mgPqfz7SrjzW8fXlLirI9PFX1w+Xoj4rqpZ99kwkHNXsOCmigcx6DOk2iPfmwPqFzOho5NF9yE0Kf+gAQ50ggrvJcQEp6GNuAGwHvlzuC8pDpSJCxZBgQlJsHWCmGQC8fj/JYR7gI9yxXF+IlFmHD6k+U1UtiiAJtaQq+Ra0/DR8ADkq1FlA==\"\n};\n    </script>\n    <script src=\"https://b43435005073.84acd667.eu-west-2.token.awswaf.com/b43435005073/228ad2d96ca1/1afbae13883d/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n\n</body></html>",
+    "method": "flaresolverr",
+    "status_code": 200,
+    "error": null,
+    "elapsed": 6.40391993522644,
+    "challenge_detected": false
+  },
+  "total_elapsed": 6.460902214050293,
+  "attempts": [
+    {
+      "success": false,
+      "content": null,
+      "method": "firecrawl",
+      "status_code": 400,
+      "error": "Firecrawl API error: 400 - {\"success\":false,\"code\":\"BAD_REQUEST\",\"error\":\"Unrecognized key in body -- please review the v2 API documentation for request body changes\",\"details\":[{\"code\":\"unrecognized_keys\",\"keys\":[\"humanBehavior\"],\"path\":[],\"message\":\"Unrecognized key: \\\"humanBehavior\\\"\"}]}",
+      "elapsed": 0.046923160552978516,
+      "challenge_detected": false
+    },
+    {
+      "success": false,
+      "content": null,
+      "method": "firecrawl",
+      "status_code": 400,
+      "error": "Firecrawl API error: 400 - {\"success\":false,\"code\":\"BAD_REQUEST\",\"error\":\"Unrecognized key in body -- please review the v2 API documentation for request body changes\",\"details\":[{\"code\":\"invalid_value\",\"values\":[\"basic\",\"stealth\",\"enhanced\",\"auto\"],\"path\":[\"proxy\"],\"message\":\"Invalid option: expected one of \\\"basic\\\"|\\\"stealth\\\"|\\\"enhanced\\\"|\\\"auto\\\"\"},{\"code\":\"unrecognized_keys\",\"keys\":[\"humanBehavior\"],\"path\":[],\"message\":\"Unrecognized key: \\\"humanBehavior\\\"\"}]}",
+      "elapsed": 0.00453495979309082,
+      "challenge_detected": false
+    },
+    {
+      "success": true,
+      "content": "<html lang=\"en\"><head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title></title>\n    <style>\n        body {\n            font-family: \"Arial\";\n        }\n    </style>\n    <script type=\"text/javascript\">\n    window.awsWafCookieDomainList = [];\n    window.gokuProps = {\n\"key\":\"AQIDAHjcYu/GjX+QlghicBgQ/7bFaQZ+m5FKCMDnO+vTbNg96AHX+chMjDI8Mwe+fhRSYp/SAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMZnfcli/Fx+QJBMJiAgEQgDvzA34CcbL+rTHoBn0e5byCDOA6gmC73mqqiRj98ObTeMTKsSxJywINm1q62ID1eFDfk7s/s0MUIWNvgA==\",\n          \"iv\":\"CvqMWwBzlQAAFqYC\",\n          \"context\":\"rNTJ8EkakHeoOFajIOETbF6IeE/MYUt99rr+q9AsMLRGhmdntun342i4Bu3NqixMzU40WipM20o20CVcz73GbDsCJ35TBi4IFzAhQtTDY6nOowwlL0zV6Z5qBG/45xqlx+HTrp0fnGmT0PZ8opFlCuR+uiOtIZjM4w3c5FsuB1lCBwRFNzXhjzKU4gU7QmqJJrYcQZVIXgwO+4OZ7TZNuhyFVqi4FfYCCv8jIFKqKHe7batzeOtfpfMlifno7K9UZeMX/G8nmkMVxrIwa4q3Zh2pPU6/JPFCgPILD0BAZz8h8SlAzVLwpI/FORLYi68eaZWLimFF3YRltvzZQ7V8cL0cc5DJWYDYX985Kl7BZPdJfP90wln4dJ5L3JzP/v6wLj3AEisacVSiKYFD1WFmp3QaPuLgjWhNCELyDmHrFygp8Ci99g1XI4peEoRSwzD0Eg45TDRb8k3rL+MnuzO4dcuowgDpA1zzqsrdVZLcWpmhFkll02g9/D3sWZh7OFHlStN/N7mgPqfz7SrjzW8fXlLirI9PFX1w+Xoj4rqpZ99kwkHNXsOCmigcx6DOk2iPfmwPqFzOho5NF9yE0Kf+gAQ50ggrvJcQEp6GNuAGwHvlzuC8pDpSJCxZBgQlJsHWCmGQC8fj/JYR7gI9yxXF+IlFmHD6k+U1UtiiAJtaQq+Ra0/DR8ADkq1FlA==\"\n};\n    </script>\n    <script src=\"https://b43435005073.84acd667.eu-west-2.token.awswaf.com/b43435005073/228ad2d96ca1/1afbae13883d/challenge.js\"></script>\n</head>\n<body>\n    <div id=\"challenge-container\"></div>\n    <script type=\"text/javascript\">\n        AwsWafIntegration.saveReferrer();\n        AwsWafIntegration.checkForceRefresh().then((forceRefresh) => {\n            if (forceRefresh) {\n                AwsWafIntegration.forceRefreshToken().then(() => {\n                    window.location.reload(true);\n                });\n            } else {\n                AwsWafIntegration.getToken().then(() => {\n                    window.location.reload(true);\n                });\n            }\n        });\n    </script>\n    <noscript>\n        <h1>JavaScript is disabled</h1>\n        In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page.\n    </noscript>\n\n</body></html>",
+      "method": "flaresolverr",
+      "status_code": 200,
+      "error": null,
+      "elapsed": 6.40391993522644,
+      "challenge_detected": false
+    }
+  ]
+}
